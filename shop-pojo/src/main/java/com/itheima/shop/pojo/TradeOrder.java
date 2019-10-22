@@ -5,6 +5,8 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class TradeOrder implements Serializable {
+
+    static final long serialVersionUID = 42L;
     private Long orderId;
 
     private Long userId;
